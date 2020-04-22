@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "6dff0874-9c3b-4041-9ed6-ace879d2bf21",
+            "Value": {
+                "id": "8977bf62-b872-4ee1-ace5-be5d9d386ca3",
+                "resourcePath": "sprites\\s_coronachan\\s_coronachan.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "1fb36fb8-4007-4d8f-8df8-7db5dd1f2085",
