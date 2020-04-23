@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "c7bba1dc-8c8c-4b58-acd5-b34c261ba4d8",
+            "Value": {
+                "id": "417d20c2-9c9b-476b-825a-d8cfe46be8c9",
+                "resourcePath": "sprites\\s_johnamericanman\\s_johnamericanman.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c910059b-3a44-406f-b38b-ef975f0c8c2a",
             "Value": {
                 "id": "1cebec0e-a734-4011-8642-f27642659f03",
