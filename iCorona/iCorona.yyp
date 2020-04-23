@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "58575be4-f46e-43c7-9e19-eca815bf9204",
+            "Value": {
+                "id": "9d9bd3d6-48eb-4469-9eec-0ca239dc4cc2",
+                "resourcePath": "scripts\\PlayerStateFree\\PlayerStateFree.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6a81675c-ddd5-4775-a187-50913262989a",
             "Value": {
                 "id": "20e6a417-e058-4951-a15f-e5cf69c5d520",
@@ -223,6 +231,14 @@
             }
         },
         {
+            "Key": "e2c4855f-cb5b-4750-a44d-3b607b2244d8",
+            "Value": {
+                "id": "af02ddf0-ba25-468d-9dd5-563e7a94b3e8",
+                "resourcePath": "objects\\o_johnamericanman\\o_johnamericanman.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "5437bbeb-c572-4117-943d-9fb19891cef0",
@@ -248,7 +264,7 @@
         }
     ],
     "script_order": [
-        
+        "58575be4-f46e-43c7-9e19-eca815bf9204"
     ],
     "tutorial": ""
 }
