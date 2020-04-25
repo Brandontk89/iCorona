@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "58575be4-f46e-43c7-9e19-eca815bf9204",
-            "Value": {
-                "id": "9d9bd3d6-48eb-4469-9eec-0ca239dc4cc2",
-                "resourcePath": "scripts\\PlayerStateFree\\PlayerStateFree.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "6a81675c-ddd5-4775-a187-50913262989a",
             "Value": {
                 "id": "20e6a417-e058-4951-a15f-e5cf69c5d520",
@@ -264,7 +256,7 @@
         }
     ],
     "script_order": [
-        "58575be4-f46e-43c7-9e19-eca815bf9204"
+        
     ],
     "tutorial": ""
 }
