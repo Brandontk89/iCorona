@@ -1,19 +1,16 @@
-if keyboard_check(vk_right)
-{
-	x += 4;	
-}
+///Input
+keyLeft = keyboard_check(ord("A"))
+keyRight = keyboard_check(ord("D"))
+keyUp = keyboard_check(ord("W"))
+keyDown = keyboard_check(ord("S"))
 
-if keyboard_check(vk_left)
-{
-	x -= 4;	
-}
+/// Movement
+hspd = keyRight - keyLeft
+vspd = keyDown - keyUp
 
-if keyboard_check(vk_up)
-{
-	y -= 4	
-}
+if (hspd != 0 or vspd != 0) {
+	Direction = point_direction(0,0,hspd,vspd)
 
-if keyboard_check(vk_down)
-{
-	y -= 4	
+	x += lengthdir_x(movespeed,Direction)
+	y += lengthdir_y(movespeed,Direction)
 }

@@ -1,2 +1,1 @@
-vspeed = 1
-hspeed = 1
+movespeed = 5
