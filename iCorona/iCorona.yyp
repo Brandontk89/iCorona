@@ -31,10 +31,26 @@
     },
     "resources": [
         {
+            "Key": "15a59a67-c8dd-41e5-bd9d-9d81e2ce915f",
+            "Value": {
+                "id": "858716c5-6d1f-43a0-9399-609fa6070185",
+                "resourcePath": "scripts\\corona_state_idle\\corona_state_idle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1c018dad-b0db-49a5-ba1e-783c3d65f87f",
             "Value": {
                 "id": "df61e868-c0e6-4456-bcf0-4e7097dccf7a",
                 "resourcePath": "views\\1c018dad-b0db-49a5-ba1e-783c3d65f87f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2bc67719-30ac-4a12-bcf6-f7577c968604",
+            "Value": {
+                "id": "17ec20f3-79d8-4b72-915b-226c28a84ed4",
+                "resourcePath": "views\\2bc67719-30ac-4a12-bcf6-f7577c968604.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -52,6 +68,14 @@
                 "id": "7555c9c4-3b71-497e-8fa2-a6ecbe6cc8db",
                 "resourcePath": "views\\3762ca67-3542-4246-9b63-ad56d31f4ae1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3879971e-b03b-4b23-8da0-6d32f82691e4",
+            "Value": {
+                "id": "6a51d2fc-c3b3-426e-ac27-bc750485ebe6",
+                "resourcePath": "scripts\\States\\States.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -280,7 +304,8 @@
         }
     ],
     "script_order": [
-        
+        "3879971e-b03b-4b23-8da0-6d32f82691e4",
+        "15a59a67-c8dd-41e5-bd9d-9d81e2ce915f"
     ],
     "tutorial": ""
 }
