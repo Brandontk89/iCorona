@@ -1,16 +1,16 @@
-///Input
-keyLeft = keyboard_check(ord("A"))
-keyRight = keyboard_check(ord("D"))
-keyUp = keyboard_check(ord("W"))
-keyDown = keyboard_check(ord("S"))
-
-/// Movement
-hspd = keyRight - keyLeft
-vspd = keyDown - keyUp
-
-if (hspd != 0 or vspd != 0) {
-	Direction = point_direction(0,0,hspd,vspd)
-
-	x += lengthdir_x(movespeed,Direction)
-	y += lengthdir_y(movespeed,Direction)
+if (keyboard_check(ord("D")) && place_free (x + collisionSpeed, y)) {
+	x += walkSpeed;
+	image_speed = walkSpeed / 3;
+}
+if (keyboard_check(ord("A")) && place_free (x - collisionSpeed, y)) {
+	x -= walkSpeed;
+	image_speed = walkSpeed / 3;
+}
+if (keyboard_check(ord("W")) && place_free (x, y - collisionSpeed)) {
+	y -= walkSpeed;
+	image_speed = walkSpeed / 3;
+}
+if (keyboard_check(ord("S")) && place_free (x, y + collisionSpeed)) {
+	y += walkSpeed;
+	image_speed = walkSpeed / 3;
 }
