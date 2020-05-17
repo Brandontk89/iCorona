@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "b02b5ee1-ef4c-49cf-86e3-03f84db90a84",
+            "Value": {
+                "id": "519fb5dc-0d02-4676-a962-f8c1eed2d795",
+                "resourcePath": "objects\\o_corona\\o_corona.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b7fc820d-ac06-420e-b99c-074d322522d1",
             "Value": {
                 "id": "ad62ca97-7211-4141-a303-69f442b14148",
