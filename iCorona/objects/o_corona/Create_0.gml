@@ -1,12 +1,16 @@
-
 enum states {
 	idle,
 	wander,
 	alert,
-	attack
+	attack,
 }
 
 state = states.idle;
+
+states_array[states.idle]	= corona_state_idle;
+states_array[states.wander] = corona_state_wander;
+states_array[states.alert]	= corona_state_alert;
+states_array[states.attack] = corona_state_attack;
 
 ///
 
@@ -19,6 +23,6 @@ moveY = lengthdir_y(spd, my_dir);
 
 my_slash = noone;
 
-image_speed = 0.5
+image_speed = 0.2
 SightRangeX = 32;
 PointX = 0;
