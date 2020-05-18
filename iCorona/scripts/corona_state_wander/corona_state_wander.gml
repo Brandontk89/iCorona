@@ -14,10 +14,13 @@
 				moveY = lengthdir_y(spd, my_dir);
 				counter = 0;
 		}
+		
 	}
 	if(collision_circle(x,y,64,o_johnamericanman,false,false)){
 		state = states.alert;
 	}
+
+
 	
 	//Sprite
 	sprite_index = s_coronachan

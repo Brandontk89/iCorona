@@ -2,7 +2,7 @@ if(my_slash == noone){
 		my_slash = instance_create_layer(
 			x + image_xscale*16,y,"Instances", o_corona
 		);
-		my_slash.creator = id;
+		//my_slash.creator = id;
 		my_slash.image_xscale = image_xscale;
 		image_index = 0;
 	}

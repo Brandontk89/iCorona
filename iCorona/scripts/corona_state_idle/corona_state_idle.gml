@@ -15,3 +15,4 @@
 	
 	//Sprite
 	sprite_index = s_coronachan;
+	
